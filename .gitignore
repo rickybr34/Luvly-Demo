@@ -1,0 +1,14 @@
+.DS_Store
+*.swiftpm
+*.xcodeproj
+*.xcworkspace
+build/
+DerivedData/
+*.swift
+# Allow specific markdown files
+!README.md
+!CONTRIBUTING.md
+# Ignore SETUP.md (keep it local only)
+SETUP.md
+# Ignore all other markdown files
+*.md
